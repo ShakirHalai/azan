@@ -1,31 +1,16 @@
 {
   "masjidId": 1,
   "masjidName": "Jama Masjid",
-  "namaz": [
-    {
-      "name": "Fajr",
-      "azan": "05:12",
-      "jamat": "05:45"
-    },
-    {
-      "name": "Zuhr",
-      "azan": "12:45",
-      "jamat": "13:15"
-    },
-    {
-      "name": "Asr",
-      "azan": "16:30",
-      "jamat": "16:45"
-    },
-    {
-      "name": "Maghrib",
-      "azan": "18:55",
-      "jamat": "19:00"
-    },
-    {
-      "name": "Isha",
-      "azan": "20:10",
-      "jamat": "20:30"
-    }
-  ]
+  "timings": {
+    "2026-02-07": [
+      { "name": "Fajr", "azan": "05:12", "jamat": "05:45" },
+      { "name": "Zuhr", "azan": "12:45", "jamat": "13:15" },
+      { "name": "Asr", "azan": "16:30", "jamat": "16:45" },
+      { "name": "Maghrib", "azan": "18:55", "jamat": "19:00" },
+      { "name": "Isha", "azan": "20:10", "jamat": "20:30" }
+    ],
+    "2026-02-08": [
+      { "name": "Fajr", "azan": "05:11", "jamat": "05:44" }
+    ]
+  }
 }
